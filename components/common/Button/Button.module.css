@@ -1,0 +1,73 @@
+.button {
+  @apply flex
+    relative
+    transition-colors
+    justify-center
+    items-center
+    rounded-[10px]
+    disabled:cursor-not-allowed;
+}
+
+.text {
+  @apply relative
+    z-[1]
+    font-medium;
+}
+
+/* Variants */
+
+.primary {
+  @apply bg-primary-1
+    text-white
+    hover:bg-primary-2
+    active:bg-primary-3
+    disabled:bg-neutrals-2
+    disabled:after:opacity-0
+    disabled:text-neutrals-4
+    hover:after:opacity-0
+    after:absolute
+    after:transition-opacity
+    after:content-['']
+    after:bg-gradient-to-b
+    after:from-gr-0-1
+    after:to-gr-0-2
+    after:block
+    after:opacity-100
+    after:inset-0
+    after:rounded-[10px];
+}
+
+.secondary {
+  @apply bg-transparent
+    border
+    border-primary-2
+    text-primary-2
+    hover:border-primary-1
+    hover:text-primary-1
+    active:bg-primary-0
+    active:border-primary-2
+    active:text-primary-2
+    disabled:border-neutrals-4
+    disabled:text-neutrals-4
+    disabled:bg-transparent;
+}
+
+/* Size */
+
+.large {
+  @apply px-[60px]
+    h-[56px]
+    text-lg;
+}
+
+.medium {
+  @apply px-[32px]
+    h-[48px]
+    text-base;
+}
+
+.small {
+  @apply px-[32px]
+    h-[40px]
+    text-sm;
+}

@@ -1,0 +1,18 @@
+{
+  "extends": ["next", "airbnb-base"],
+  "rules": {
+    "no-unused-vars": "warn",
+    "import/prefer-default-export": "off",
+    "import/no-extraneous-dependencies": "off",
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ]
+  }
+}
