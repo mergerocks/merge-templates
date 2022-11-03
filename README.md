@@ -1,6 +1,6 @@
 # Relaypay Web App
 
-**Required to install**: [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+**Required**: [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 <hr>
 
 ## Development:
