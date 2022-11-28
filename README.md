@@ -5,7 +5,7 @@
 
   <p align="center">
     <p>Development starting boilerplates by Merge Development</p>
-    <a align="center" href="https://merge.rocks">
+    <a align="center" href="https://merge.rocks" target="_blank">
     <img src="https://cms.merge.rocks/static/images/White.png" width="200px" height="auto">
   </a>
   </p>
