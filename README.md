@@ -12,8 +12,7 @@
 </div>
 <br>
 
-## [🚀 Next.js + Tailwind + Storybook + Vitest + Airbnb Eslint](https://github.com/mergerocks/merge-template/tree/main/next-tailwind#readmed)
-
+## [🚀  Next.js + Tailwind + Storybook + Vitest + Airbnb Eslint](https://github.com/mergerocks/merge-template/tree/main/next-tailwind#readme)
 ```bash
 npx degit mergerocks/merge-template/next-tailwind my-new-project
 ```
