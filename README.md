@@ -18,12 +18,7 @@
 npx degit mergerocks/merge-template/next-tailwind my-new-project
 ```
 
-<br>
 
-
-
-<br>
-<hr>
 <br>
 
 ## License
