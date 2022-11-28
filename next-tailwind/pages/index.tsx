@@ -9,8 +9,8 @@ export default function Home() {
       </Head>
 
       <div>
-        <h1>Hello</h1>
-        <Button>Hello</Button>
+        <h1>Home Page</h1>
+        <Button>Button</Button>
       </div>
     </>
   );
