@@ -67,7 +67,7 @@
 
 
 ```bash
-npx degit mergerocks/merge-template/next-tailwind my-new-project
+npx degit mergerocks/merge-templates/next-tailwind my-new-project
 ```
 
 **🥋 Required VS Code Plugin**: [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
