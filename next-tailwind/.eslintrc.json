@@ -1,9 +1,15 @@
 {
   "extends": ["next", "airbnb-base"],
   "rules": {
+    "object-curly-newline": [
+      "error",
+      {
+        "ObjectPattern": { "multiline": true },
+        "ImportDeclaration": "never",
+        "ExportDeclaration": { "multiline": true, "minProperties": 3 }
+      }
+    ],
     "no-unused-vars": "warn",
-    "import/prefer-default-export": "off",
-    "import/no-extraneous-dependencies": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
@@ -13,6 +19,27 @@
         "ts": "never",
         "tsx": "never"
       }
-    ]
+    ],
+    "no-use-before-define": "off",
+    "react/destructuring-assignment": "off",
+    "jsx-a11y/label-has-associated-control": "off",
+    "react/require-default-props": "off",
+    "react/no-unused-prop-types": "off",
+    "react/jsx-props-no-spreading": "off",
+    "linebreak-style": "off",
+    "max-classes-per-file": ["error", 2],
+    "react/prop-types": "off",
+    "react/jsx-filename-extension": [
+      1,
+      { "extensions": [".js", ".jsx", ".tsx", ".ts"] }
+    ],
+    "react/button-has-type": "off",
+    "arrow-body-style": "off",
+    "react/react-in-jsx-scope": "off",
+    "import/no-unresolved": "off",
+    "import/prefer-default-export": "off",
+    "import/no-extraneous-dependencies": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "react/no-danger": "off"
   }
 }
